@@ -5,31 +5,31 @@ void test(double num, double eps);
 
 int main(){
 	double expirience = exp(5, 0.00001);
-	printf("\nex ^ 5 =  %lf\n", expirience);
+	printf("\nexp ^ 5 =  %lf\n", expirience);
 
 	double psina = sin(12, 0.00001);
 	printf("\nsin (12) = %lf\n", psina);
 
 	double coslina = cos(12, 0.00001);
-	printf("\ncos %lf\n", coslina);
+	printf("\ncos (12) = %lf\n", coslina);
 	
 	double lenin = ln(52, 0.00001);
-	printf("\nln %lf\n", lenin);
+	printf("\nln(52) =  %lf\n", lenin);
 	
 	double shishka = sh(10, 0.00001);
-	printf("\nsh %lf\n", shishka);
+	printf("\nsh (10) =  %lf\n", shishka);
 
 	double churka = ch(1, 0.00001);
-	printf("\nch %lf\n", churka);
+	printf("\nch (1) = %lf\n", churka);
 
 	double ne_pridumal = log10(5, 0.00001);
-	printf("\nlog 10 %lf\n", ne_pridumal);
+	printf("\nlog 10 (5)=  %lf\n", ne_pridumal);
 
 	double pomidor = pow(7, 5.6, 0.00000000000001);
-	printf("\npow %lf\n", pomidor);
+	printf("\n7 ^ 5,6 = %lf\n", pomidor);
 
 	double squarechnik = sqrt(4, 0.0000001);
-	printf("\n%lf\n", squarechnik);
+	printf("\nsqrt(4) = %lf\n", squarechnik);
 
 
 	return 0;
